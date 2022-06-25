@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arena_200"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_manzanaLogo"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/img_manza"/>
+
+    <TextView
+        android:id="@+id/lbl_inicio"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_manzanaLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:hint="@string/lbl_inicio"/>
+
+
+    <TextView
+        android:id="@+id/lbl_social"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_inicio"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:hint="@string/lbl_social"/>
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/lbl_social"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/purple_700"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        android:hint="@string/logo_facebook"/>
+
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="125dp"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/btn_facebook"
+        android:textColorHint="@color/rojo"
+        android:textSize="30dp"
+        android:hint="@string/logo_google"/>
+
+    <Button
+        android:id="@+id/btn_apple"
+        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_below="@+id/btn_facebook"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/white"
+        android:hint="@string/logo_apple"/>
+
+    <Button
+        android:id="@+id/btn_celar"
+        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_below="@+id/btn_apple"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/verde_200"
+        android:textColorHint="@color/white"
+        android:hint="@string/logo_celar"/>
+
+    <TextView
+        android:id="@+id/lbl_correo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_celar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:hint="@string/lbl_correo"/>
+
+
+    <TextView
+        android:id="@+id/lbl_ingresecorreo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_correo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:hint="@string/lbl_ingresecorreo"/>
+
+
+    <EditText
+        android:id="@+id/txt_correo"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/lbl_ingresecorreo"
+        android:paddingLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:hint="@string/txt_correo"/>
+
+
+
+    <TextView
+        android:id="@+id/lbl_contraseña"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_correo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:hint="@string/lbl_contraseña"/>
+
+
+    <EditText
+        android:id="@+id/txt_contraseña"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/lbl_contraseña"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:drawableEnd="@drawable/ic_red_eye_24"
+        android:hint="@string/txt_contraseña"/>
+
+
+
+    <Button
+        android:id="@+id/btn_inicio"
+        android:layout_height="60dp"
+        android:layout_width="380dp"
+        android:layout_below="@+id/txt_contraseña"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/verde_200"
+        android:textColorHint="@color/white"
+        android:hint="@string/lbl_inicio"/>
+
+
+    <TextView
+        android:id="@+id/lbl_nopuede"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_inicio"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:hint="@string/lbl_nopuede"/>
+
+    <!--android:textDirection="rtl"-->
+
+    <TextView
+        android:id="@+id/lbl_olvide"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="560dp"
+        android:layout_toRightOf="@id/lbl_nopuede"
+        android:linksClickable="true"
+        android:textColorHint="@color/teal_700"
+        android:textColorLink="@color/teal_700"
+        android:textDirection="ltr"
+        android:textStyle="bold"
+        android:hint="@string/lbl_olvide"/>
+
+
+    <TextView
+        android:id="@+id/lbl_nocuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl_nopuede"
+        android:textColorHint="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:hint="@string/lbl_nocuenta"/>
+
+
+    <Button
+        android:id="@+id/btn_registrate"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lbl_nocuenta"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/verde_200"
+        android:textColorHint="@color/white"
+        android:hint="@string/lbl_registrate"/>
+
+
+
+</RelativeLayout>

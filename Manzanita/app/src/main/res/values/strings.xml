@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ManzanaVerde</string>
+    <string name="lbl_inicio">Iniciar sesión</string>
+    <string name="lbl_social">Con tu red social</string>
+    <string name="logo_facebook">f</string>
+    <string name="logo_google">G</string>
+    <string name="logo_apple">֍ Continuar con Apple</string>
+    <string name="logo_celar">Continúa con tu celular</string>
+    <string name="lbl_correo">Con tu correo</string>
+    <string name="lbl_ingresecorreo">Ingrese con su correo electrónico</string>
+    <string name="txt_correo">ejemplo@correo.com</string>
+    <string name="lbl_contraseña">Contraseña</string>
+    <string name="txt_contraseña">Debe tener mínimo 8 dígitos</string>
+    <string name="lbl_nopuede">¿No puedes iniciar sesión?</string>
+    <string name="lbl_olvide">Olvidé mi contraseña</string>
+    <string name="lbl_nocuenta">¿Aún no tienes una cuenta?</string>
+    <string name="lbl_registrate">Regístrate</string>
+</resources>
